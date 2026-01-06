@@ -165,6 +165,7 @@ nav {
 .skill-card {
   padding: 30px;
   box-shadow: 0 6px 50px 0 rgba(128, 128, 128, 0.279);
+  border-radius: 5px;
 }
 .skill-card img {
   margin-bottom: 30px;
@@ -180,4 +181,53 @@ nav {
   font-weight: 400;
   line-height: 28px;
   color: #757575;
+}
+.resume-container {
+  margin-bottom: 113px;
+}
+.resume-tittle {
+  margin-top: 130px;
+  margin-bottom: 113px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  text-align: center;
+}
+.resume-box {
+  display: flex;
+  gap: 71px;
+  width: 71%;
+  max-width: 1140px;
+  margin: 0px auto;
+}
+.education-tittle {
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.education-content h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #474747;
+  margin-top: 30px;
+}
+
+.education-content .vercity {
+  font-size: 16px;
+  font-weight: 600;
+  color: #474747;
+  margin-top: 10px;
+}
+.education-content p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.resume-btn {
+  text-align: center;
+  margin-top: 50px;
 }
